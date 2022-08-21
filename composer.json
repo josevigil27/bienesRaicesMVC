@@ -1,0 +1,22 @@
+{
+    "name": "josev/bienes-raices-php_poo",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jose Antonio Vigil",
+            "email": "jvigil504@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controller\\" : "./controllers"
+        }
+    }
+}
